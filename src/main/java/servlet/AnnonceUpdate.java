@@ -52,7 +52,7 @@ public class AnnonceUpdate extends HttpServlet {
                 annonce.setMail(mail);
                 annonce.setDate(new Timestamp(System.currentTimeMillis()));
 
-                dao.update(annonce); // Utilisation d'Hibernate
+                dao.update(annonce);
                 response.sendRedirect("AnnonceList.jsp");
             } else {
                 request.setAttribute("error", "Erreur lors de la mise à jour !");

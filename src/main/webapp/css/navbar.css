@@ -1,0 +1,35 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
